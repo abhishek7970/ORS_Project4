@@ -186,6 +186,8 @@ public class UserCtl extends BaseCtl {
 		populateDTO(bean, request);
 
 		log.debug("UserCtl Method populatebean Ended");
+		
+		System.out.println("hi abhishek");
 
 		return bean;
 
